@@ -1,0 +1,23 @@
+
+body{
+    background-color: gray;
+    
+}
+
+#section1{
+    margin: 10px ;
+    width: 200px;
+    background-color: #0DD2F5;
+    text-align: center;
+}
+
+
+#section2{
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+    margin-right: 50px;
+    width: 80px;
+    background-color: #F70A06;
+    text-align: center;
+}

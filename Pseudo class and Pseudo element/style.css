@@ -1,0 +1,41 @@
+
+body{
+    background-color: deepskyblue;
+}
+
+
+a:hover{
+    background-color: black;
+    color: white;
+}
+
+
+input{
+    margin: 20px;
+    padding: 10px;
+    font-size: 1rem;
+    width: 150px;
+    border-radius: 10px;
+}
+
+input:focus{
+    background-color:grey;
+    color: white;
+}
+
+table{
+    width: 500px;
+    height: 250px;
+    margin: 20px;
+    text-align: center;
+}
+
+table ,tr, td{
+    border: 1px solid black;
+    
+    
+}
+
+td:hover{
+    background-color: azure;
+}

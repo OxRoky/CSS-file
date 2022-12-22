@@ -1,0 +1,25 @@
+body{
+    background-color: grey;
+    color: white;
+}
+
+
+.align{
+    text-align: center;
+    text-decoration: line-through;
+    text-shadow: 5px 2px red;
+}
+
+
+.decoration{
+    text-decoration: underline;
+}
+
+.style{
+     text-indent: 50px;
+}
+
+.style2{
+      text-align: justify;
+      word-spacing: 2px;
+}

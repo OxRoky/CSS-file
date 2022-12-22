@@ -1,0 +1,14 @@
+.gradient-style{
+    height: 400px;
+    width: 100%;
+    background-image: linear-gradient(to right, red , yellow, green, #A80C24, #0669F7);
+}
+
+
+.gradient2{
+        
+        height: 400px;
+        width: 100%;
+        background-image: radial-gradient(circle, red , yellow, orange, green, #A80C24, #0669F7);
+    
+}

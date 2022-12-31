@@ -1,0 +1,36 @@
+
+:root{
+    --praimary-color: rgb(9, 245, 28);
+    --secondary-color:red;
+}
+
+
+div{
+    height: 250px;
+    width: 250px;
+}
+
+#div1{
+    background-color: var(--praimary-color);
+    position: absolute;
+    z-index: 1;
+}
+
+#div2{
+    background-color: var(--secondary-color);
+    position: absolute; 
+    left: 150px;
+    top: 150px;
+    z-index: 2;
+}
+
+@media screen and (max-width:600px){
+   :root{
+
+    --praimary-color: rgb(13, 14, 13);
+    --secondary-color:rgb(98, 0, 255);
+}
+
+   }
+   
+  

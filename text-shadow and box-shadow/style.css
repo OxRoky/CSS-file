@@ -1,0 +1,14 @@
+body{
+    background-color: gray;
+}
+
+h1{
+    text-shadow: 5px 5px 5px  red ;
+}
+
+div{
+    width: 200px;
+    background-color: aqua;
+    border: 2px solid black;
+    box-shadow: 15px 15px 5px green;
+}

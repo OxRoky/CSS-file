@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+
+
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left:0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nav .logo{
+    width: 80px;
+
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+
+.nav ul li a:hover{
+    background-color: rgb(240, 11, 11);
+    border: 10px solid gray;
+    border-radius: 10px;
+}
+
+
+
+
+.contect{
+    text-align: center; 
+    
+}
+
+.contect h1{
+    font-size: 100px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    transition: 0.5s;
+
+}
+
+.contect h1:hover{
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+}
+
+.contect a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    border: 2px solid #fff;
+    padding: 14px 70px;
+    border-radius: 50px;
+}
+
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 1500px;
+
+}
+
+
+@media screen and (max-width: 600px) {
+    .nav ul li{
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .contect h1{
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        font-size: 50px;
+        text-align: center;
+        margin-top: 300px;
+    }
+    
+    .nav .logo{
+        width: 100%;
+    }
+}
+
+

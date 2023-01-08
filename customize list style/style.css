@@ -1,0 +1,41 @@
+.list{
+    background-color: gray;
+    padding: 20px;
+    color: white;
+}
+
+.list ul{
+    /* list-style-type: circle;
+    list-style-position: inside;
+    list-style-image: url(checked.png); */
+
+    /* list-style: url(checked.png) inside circle; */
+}
+
+
+/*  options 2 */
+
+
+.list ul{
+    list-style-type: none;
+
+}
+
+.list li{
+    font-size: 1.2rem;
+    color:white;
+
+}
+
+.list li::before{
+    content: '\f058';
+    font-family: 'font awesome 5 free' ;
+    font-weight: bold;
+
+
+    display: inline-block;
+    margin: 10px 5px;
+    font-size: 2rem;
+    color: black;
+
+}
